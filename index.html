@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .container {
+            margin-bottom: 20px;
+        }
+        img {
+            max-width: 100px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Fetch Data and Log to Console</h2>
+        <button onclick="fetchDataAndLog()">Fetch Data</button>
+    </div>
+
+    <div class="container">
+        <h2>Fetch Data and Display on Web Page</h2>
+        <div id="api-data"></div>
+    </div>
+
+    <div class="container">
+        <h2>Fetch JSON Data and Display Specific Information</h2>
+        <ul id="api-data-list"></ul>
+    </div>
+
+    <div class="container">
+        <h2>Fetch Data and Create Dropdown</h2>
+        <select id="api-dropdown"></select>
+    </div>
+
+    <div class="container">
+        <h2>Fetch Image URLs and Display</h2>
+        <div id="api-images"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
